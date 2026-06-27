@@ -1,0 +1,11 @@
+{
+  "name": "linkedin-autoposter",
+  "version": "1.0.0",
+  "description": "Posts one scheduled update per day to LinkedIn via GitHub Actions.",
+  "type": "commonjs",
+  "main": "poster.js",
+  "scripts": {
+    "start": "node poster.js"
+  },
+  "license": "MIT"
+}
