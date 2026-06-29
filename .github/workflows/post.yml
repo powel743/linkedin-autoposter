@@ -2,8 +2,8 @@ name: LinkedIn Auto-Poster
 
 on:
   schedule:
-    # 06:00 UTC daily = 09:00 EAT (Nairobi)
-    - cron: '0 6 * * *'
+    # 03:00 UTC daily = 06:00 EAT (Nairobi)
+    - cron: '0 3 * * *'
   workflow_dispatch: {}
 
 permissions:
